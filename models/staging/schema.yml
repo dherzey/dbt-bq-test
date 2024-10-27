@@ -12,3 +12,5 @@ models:
         description: "how much does student have access to vital resources"
       - name: peer_influence
         description: "level of peer influence on student"
+  - name: stg_remote_data_job
+    description: "effect of remote work on data professionals"
