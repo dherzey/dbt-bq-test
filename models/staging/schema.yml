@@ -1,0 +1,14 @@
+version: 2
+
+models:
+  - name: stg_student_private
+    description: "students who studies in a private school"
+    columns:
+      - name: motivation_level
+        description: "level of student motivation in school"
+      - name: attendance
+        description: "number of days when student is present"
+      - name: access_to_resources
+        description: "how much does student have access to vital resources"
+      - name: peer_influence
+        description: "level of peer influence on student"
