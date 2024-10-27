@@ -31,8 +31,8 @@ clean-targets:         # directories to be removed by `dbt clean`
 # files using the `{{ config(...) }}` macro.
 models:
   dbt_bq_test:
-    # Config indicated by + and applies to all files under models/example/
-    stg_remote_data_job:
-      materialized: table
-    stg_student_private:
-      materialized: table
+    staging:
+      stg_remote_data_job:
+        materialized: table
+      stg_student_private:
+        materialized: table
