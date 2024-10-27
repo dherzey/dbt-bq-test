@@ -3,4 +3,4 @@
 select *
 from `sample.remote_work_impact`
 where lower(Job_Role) like "%data%"
-limit 100
+limit 500
