@@ -9,3 +9,4 @@ select
   )),8) as id,
   *
 from `sample.student_performance`
+limit 100
