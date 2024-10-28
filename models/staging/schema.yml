@@ -14,3 +14,5 @@ models:
         description: "level of peer influence on student"
   - name: stg_remote_data_job
     description: "effect of remote work on data professionals"
+  - name: stg_student_w_id
+    description: "student base table with id column"

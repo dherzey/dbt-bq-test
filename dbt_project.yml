@@ -36,3 +36,5 @@ models:
         materialized: table
       stg_student_private:
         materialized: table
+      stg_student_w_id:
+        materialized: table
