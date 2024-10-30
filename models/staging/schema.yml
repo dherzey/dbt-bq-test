@@ -1,5 +1,13 @@
 version: 2
 
+sources:
+  - name: staging
+    database: tmhomework
+    schema: sample
+    tables:
+      - name: remote_work_impact
+      - name: student_performance
+
 models:
   - name: stg_student_private
     description: "students who studies in a private school"
